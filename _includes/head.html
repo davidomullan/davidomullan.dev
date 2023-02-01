@@ -1,0 +1,38 @@
+<head>
+  <!-- Page Title -->
+  {% if page.title %}
+    <title>{{ page.title }} | David O'Mullan</title>
+    <meta property="og:title" content="{{ page.title }} | David O'Mullan">
+  {% else %}
+    <title>Test Page: Don't Panic</title>
+    <meta property="og:title" content="Test Page: Don't Panic">
+  {% endif %}
+
+  <!-- Page Meta Tags -->
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="description" content="My personal developer website.">
+    <meta property="og:description" content="My personal developer website.">
+  {% endif %}
+
+  <!-- Open Graph Meta Image -->
+  <meta property="og:image" content="/images/sample.png" />
+
+  <!-- Page Icons -->
+  <link rel="icon" type="image/png" href="/images/sample.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/sample.png">
+
+  <!-- Page Format -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font Families -->
+
+  <!-- Font Awesome Families -->
+
+
+  <!-- Main.css -->
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
