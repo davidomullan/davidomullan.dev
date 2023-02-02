@@ -1,8 +1,9 @@
 /* COLOR PALLETE */
 :root {
   --primary-color: #222831;
-  --secondary-color: #393E46;
-  --accent-color-2: #00ADB5;
+  --secondary-color: #9da3b4;
+  --tertiary-color: #393E46;
+  --accent-color-2: #02d7e0;
   --accent-color-1: #EEEEEE;
 }
 
@@ -60,12 +61,62 @@ hr {
 /* END RESET */
 
 /* GLOBAL STYLES */
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--primary-color);
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+/*  font-family: 'Raleway', sans-serif;*/
 }
 a {
   text-decoration: none;
+}
+h1 {
+  font-size: 5em;
+  font-weight: bolder;
+  color: var(--accent-color-1);
+  margin: 0.5em 0 0 0;
+}
+h2 {
+  font-size: 3.75em;
+  font-weight: bolder;
+  color: var(--secondary-color);
+  margin-bottom: 0.5em;
+}
+h2 span {
+  color: var(--accent-color-1);
+}
+h3 {
+  font-size: 1.1em;
+  color: var(--secondary-color);
+  width: 40vw;
+  line-height: 1.5em;
+  margin-bottom: 0.5em;
+}
+h3 span {
+  color: var(--accent-color-2);
+}
+h4 {
+  font-size: 1.1em;
+  color: var(--accent-color-2);
+}
+h5 {
+  box-sizing: border-box;
+  margin-top: 3em;
+}
+h5 a{
+
+  padding: 1em;
+  border: 1px solid var(--accent-color-2);
+  border-radius: 5px;
+  font-size: 1em;
+  color: var(--accent-color-2);
+  transition: font-style 2s;
+}
+h5 a:hover,
+h5 a:active {
+  background-color: var(--tertiary-color);
 }
 li a:hover,
 li a:active {
@@ -106,10 +157,10 @@ ol > li::marker {
 .header-logo:active {
   height: 98px;
   width: 98px;
-  border: 1px solid var(--accent-color-1);
+  border: 1px solid var(--accent-color-2);
   border-radius: 25px;
-  background-color: var(--accent-color-2);
-  color: var(--accent-color-1);
+  background-color: var(--tertiary-color);
+  color: var(--accent-color-2);
 }
 .header-nav {
   display: flex;
@@ -209,7 +260,10 @@ ol > li::marker {
   z-index: 19;
 }
 .aside h3 {
-  color: var(--accent-color-1);
+  font-size: 1em;
+  width: 100%;
+  line-height: 1em;
+  margin-bottom: 0;
 }
 .aside .aside-email {
   padding-bottom: 50px;
@@ -226,12 +280,16 @@ ol > li::marker {
 
 
 /* ABOUT STYLES */
-/*.about {
+.hero {
   display: flex;
-  background-color: #3C0919;
-  height: 100vh;
-  width: 80%;
-}*/
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 7vw;
+  align-items: left;
+  justify-content: center;
+  background-color: var(--primary-color);
+  height: 90vh;
+}
 
 /* EXPERIENCE STYLES */
 /*.experience {
@@ -248,3 +306,9 @@ ol > li::marker {
   height: 100vh;
   width: 80%;
 }*/
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
