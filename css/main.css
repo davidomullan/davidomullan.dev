@@ -152,6 +152,7 @@ ol > li::marker {
   width: 100px;
   align-items: center;
   justify-content: center;
+  transition: transform 2s;
 }
 .header-logo:hover,
 .header-logo:active {
@@ -161,6 +162,7 @@ ol > li::marker {
   border-radius: 25px;
   background-color: var(--tertiary-color);
   color: var(--accent-color-2);
+  transform: rotate(180deg);
 }
 .header-nav {
   display: flex;
@@ -270,16 +272,15 @@ ol > li::marker {
 }
 .aside a {
   color: var(--accent-color-1);
+  transition: all ease-in-out 0.5s;
 }
 .aside a:hover,
 .aside a:active {
   color: var(--accent-color-2);
+  margin-bottom: 0.5em;
 }
 
 /* HERO STYLES */
-
-
-/* ABOUT STYLES */
 .hero {
   display: flex;
   flex-direction: column;
@@ -288,24 +289,44 @@ ol > li::marker {
   align-items: left;
   justify-content: center;
   background-color: var(--primary-color);
-  height: 90vh;
+  height: 100vh;
+}
+
+/* ABOUT STYLES */
+.about {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 7vw;
+  align-items: left;
+  justify-content: center;
+  background-color: var(--primary-color);
+  height: 100vh;
 }
 
 /* EXPERIENCE STYLES */
-/*.experience {
+.experience {
   display: flex;
-  background-color: #3C0919;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 7vw;
+  align-items: left;
+  justify-content: center;
+  background-color: var(--primary-color);
   height: 100vh;
-  width: 80%;
-}*/
+}
 
 /* CONTACT STYLES */
-/*.contact {
+.contact {
   display: flex;
-  background-color: #3C0919;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 7vw;
+  align-items: left;
+  justify-content: center;
+  background-color: var(--primary-color);
   height: 100vh;
-  width: 80%;
-}*/
+}
 
 @media screen and (prefers-reduced-motion: reduce) {
   html {
