@@ -71,6 +71,7 @@ body {
 }
 a {
   text-decoration: none;
+  transition: all 0.35s;
 }
 h1 {
   font-size: 5em;
@@ -144,7 +145,6 @@ ol > li::marker {
   width: 100%;
 }
 .header-logo {
-/*  background-color: var(--accent-color-1);*/
   display: flex;
   color: var(--accent-color-2);
   font-size: 4em;
@@ -152,16 +152,16 @@ ol > li::marker {
   width: 100px;
   align-items: center;
   justify-content: center;
-  transition: transform 2s;
+  transition: all 2s;
 }
 .header-logo:hover,
 .header-logo:active {
   height: 98px;
   width: 98px;
-  border: 1px solid var(--accent-color-2);
+  border: 1px solid var(--accent-color-1);
   border-radius: 25px;
   background-color: var(--tertiary-color);
-  color: var(--accent-color-2);
+  color: var(--accent-color-1);
   transform: rotate(180deg);
 }
 .header-nav {
@@ -184,12 +184,26 @@ ol > li::marker {
   width: 80vw;
 }
 .footer img {
-  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 30vw;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.page-content img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 25vw;
+  margin-bottom: 10px;
+  object-fit: cover;
 }
 .footer h3 {
   color: var(--accent-color-2);
+  display: inline-flex;
   padding: 1.5em;
   text-transform: uppercase;
+  text-align: center;
 }
 .footer-nav {
   align-items: center;
@@ -208,6 +222,13 @@ ol > li::marker {
   flex-direction: column;
   margin: 0 10vw;
   width: 80vw;
+}
+.page-content img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: 25vw;
+  margin-bottom: 10px;
+  object-fit: cover;
 }
 
 /* SOCIAL LINK STYLES */
@@ -230,14 +251,15 @@ ol > li::marker {
   flex-direction: column;
   box-sizing: border-box;
   margin-top: 25px;
-  transition: transform 1s;
+  transition: all 1s;
 }
 .social-links li:hover,
 .social-links li:active {
-  transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
 }
 .social-links li a {
   color: var(--accent-color-1);
+  -webkit-transition: all 1s;
 }
 .social-links li a:hover,
  .social-links li a:active {
@@ -289,7 +311,7 @@ ol > li::marker {
   align-items: left;
   justify-content: center;
   background-color: var(--primary-color);
-  height: 100vh;
+  height: 90vh;
 }
 
 /* ABOUT STYLES */
