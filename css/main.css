@@ -186,10 +186,10 @@ body {
 .header-logo:active {
   height: 98px;
   width: 98px;
-  border: 1px solid var(--accent-color-1);
+  border: 1px solid var(--background-color);
   border-radius: 25px;
   background-color: var(--accent-color-2);
-  color: var(--accent-color-1);
+  color: var(--background-color);
   transform: rotate(180deg);
 }
 .header-nav {
