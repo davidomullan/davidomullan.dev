@@ -1,12 +1,14 @@
 /* COLOR PALLETE */
 :root {
-  /* https://www.colorhexa.com/020024 */
+  /* Primary:       https://www.colorhexa.com/020024 */
+  /* Complementary: https://www.colorhexa.com/222400 */
   --primary-color: #e9e8ff;
   --secondary-color: #b2adff;
   --accent-color-2: #8d86ff;
   --accent-color-1: #e9e8ff;
   --background-color: #020024;
   --mouse-color: #030038;
+  --hyperlink: #f2ff10;
 }
 
 /* RESET DEFAULTS */
@@ -80,7 +82,7 @@ h1 {
   font-size: 5em;
   font-weight: bolder;
   color: var(--accent-color-1);
-  margin: 0.5em 0 0 0;
+/*  margin: 0.1em 0 0 0;*/
 }
 h2 {
   font-size: 3.75em;
@@ -101,9 +103,20 @@ h3 {
 h3 span {
   color: var(--accent-color-1);
 }
+h3 a {
+  color: var(--accent-color-1);
+}
+h3 a:hover,
+h3 a:active {
+  color: var(--hyperlink);
+}
 h4 {
-  font-size: 1.1em;
+  font-size: 1.5em;
   color: var(--accent-color-2);
+  margin: 0.25em 0em;
+}
+h4 span {
+  color: var(--accent-color-1);
 }
 h5 {
   box-sizing: border-box;
@@ -111,6 +124,7 @@ h5 {
 }
 h5 a{
   padding: 1em;
+  margin-right: 1em;
   border: 1px solid var(--accent-color-2);
   border-radius: 5px;
   font-size: 1em;
@@ -119,12 +133,12 @@ h5 a{
 }
 h5 a:hover,
 h5 a:active {
-  background-color: var(--accent-color-2);
-  color: var(--accent-color-1);
+  background-color: var(--accent-color-1);
+  color: var(--background-color);
 }
 li a:hover,
 li a:active {
-  color: var(--accent-color-2);
+  color: var(--hyperlink);
 }
 ol {
   list-style: decimal-leading-zero;
