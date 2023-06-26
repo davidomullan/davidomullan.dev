@@ -112,7 +112,7 @@ h3 a:active {
 h4 {
   color: var(--accent-color-2);
   font-size: 1.5em;
-  margin: 0.25em 0em;
+  margin: 0.325em 0em;
 }
 h4 span {
   color: var(--accent-color-1);
@@ -227,18 +227,41 @@ ol > li::marker {
 
 /* PAGE CONTENT STYLES */
 .page-content {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  height: 80vh;
-  margin: 0 5vw;
-  width: 100%;
+  height: 70vh;
+  justify-content: center;
+  margin: 0 5vw 10vh 5vw;
+  text-align: justify;
+  width: 100vw;
 }
 .page-content img {
-  border-radius: 8px;
+  border-radius: 4px;
   border: 1px solid #ddd;
   height: 30vh;
-  margin: 10vh 0vw 2vh 0vw;
+  margin: auto;
+  margin-bottom: 5vh;
+  margin-top: 20vh;
   object-fit: cover;
+  width: 65vw;
+}
+
+.side-by-side {
+  flex-direction: row;
+}
+
+#about_photo {
+  object-position: center 38%;
+}
+
+#experience_photo {
+  object-position: center 99%;
+}
+
+#contact_photo {
+  height: 45vh;
+  width: 35vw;
 }
 
 /* SOCIAL LINK STYLES */
