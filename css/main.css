@@ -252,7 +252,7 @@ ol > li::marker {
   display: flex;
   flex-direction: column;
   margin: 0 10vw;
-  padding: 10vh 0 15vh;
+  padding: 1.5rem 0 2rem;
   text-align: center;
   width: 80vw;
 }
@@ -288,7 +288,7 @@ ol > li::marker {
   flex-direction: column;
   min-height: 70vh;
   justify-content: center;
-  margin: 0 5vw 10vh 5vw;
+  margin: 0 5vw 2rem 5vw;
   text-align: left;
   width: 100vw;
 }
@@ -397,9 +397,31 @@ ol > li::marker {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
-  padding: 0 12vw 0 15vw;
+  /* Leave room for the page margin and footer so the nav shows without scrolling */
+  min-height: calc(100vh - 7rem);
+  padding: 100px 12vw 0 15vw;
+}
+
+.home-quote {
+  border-left: 3px solid var(--accent-color-2);
+  margin-top: 6rem;
+  max-width: 34rem;
+  padding-left: 1.25rem;
+}
+.home-quote p {
+  color: var(--secondary-color);
+  font-size: clamp(1rem, 1.3vw, 1.15rem);
+  font-style: italic;
+  line-height: 1.6;
+}
+.home-quote figcaption {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  font-size: 0.95rem;
+  margin-top: 0.6rem;
 }
 
 /* ABOUT STYLES */
@@ -408,9 +430,9 @@ ol > li::marker {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
-  padding: 0 15vw;
+  min-height: calc(100vh - 7rem);
+  padding: 100px 15vw 0;
 }
 
 /* EXPERIENCE STYLES */
@@ -430,9 +452,125 @@ ol > li::marker {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
-  padding: 0 15vw;
+  min-height: calc(100vh - 7rem);
+  padding: 100px 15vw 0;
+}
+
+/* QUOTES STYLES */
+.quotes {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 15vw 0;
+  width: 100%;
+}
+.quote-featured {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem auto 6rem;
+  max-width: 48rem;
+  justify-content: center;
+  text-align: center;
+}
+.quote-featured figure::before {
+  color: var(--accent-color-2);
+  content: '\201C';
+  display: block;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 6rem;
+  line-height: 0.6;
+  margin-bottom: 1.5rem;
+}
+.quote-featured .quote-lead {
+  color: var(--accent-color-1);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.6rem, 3.2vw, 2.6rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+.quote-featured .quote-more {
+  font-size: clamp(1rem, 1.45vw, 1.2rem);
+  margin-top: 1.25rem;
+}
+.quote-featured figcaption {
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+.quote-featured .quote-note {
+  margin: 1.5rem auto 0;
+  max-width: 36rem;
+  text-align: left;
+}
+.quote-shuffle {
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+}
+.quote-grid {
+  columns: 3 18rem;
+  column-gap: 1.5rem;
+}
+.quote-card {
+  background: rgba(34, 52, 43, 0.55);
+  border: 1px solid rgba(168, 171, 165, 0.18);
+  border-left: 3px solid var(--accent-color-2);
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+}
+.quote-card[hidden] {
+  display: none;
+}
+.quote-lead,
+.quote-more,
+.quote-note p {
+  white-space: pre-line;
+}
+.quote-card .quote-lead {
+  color: var(--accent-color-1);
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.quote-more {
+  color: var(--secondary-color);
+  line-height: 1.6;
+  margin-top: 0.75rem;
+}
+.quote-card figcaption {
+  margin-top: 1rem;
+}
+.quote-author {
+  color: var(--accent-color-2);
+  font-weight: 700;
+}
+.quote-author::before {
+  content: '\2014\00a0';
+}
+figcaption cite {
+  color: var(--secondary-color);
+  display: block;
+  font-size: 0.9em;
+  margin-top: 0.3rem;
+}
+.quote-note {
+  color: var(--secondary-color);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+.quote-note summary {
+  color: var(--hyperlink);
+  cursor: pointer;
+  font-weight: 700;
+}
+.quote-note p {
+  margin-top: 0.5rem;
 }
 
 /* MOUSE GLOW STYLES */
@@ -445,7 +583,8 @@ ol > li::marker {
   content: '';
   height: var(--size);
   left: var(--x);
-  position: absolute;
+  pointer-events: none;
+  position: fixed;
   top: var(--y);
   width: var(--size);
   z-index: 0;
@@ -509,6 +648,16 @@ ol > li::marker {
   }
   .about {
     min-height: 100vh;
+  }
+  .quotes {
+    padding: 7rem 8vw 0;
+  }
+  .quote-featured {
+    margin: 2rem auto 4rem;
+    min-height: auto;
+  }
+  .quote-featured figure::before {
+    font-size: 4.5rem;
   }
   .intro,
   .body-copy {

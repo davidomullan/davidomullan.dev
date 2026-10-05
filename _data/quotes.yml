@@ -1,0 +1,309 @@
+# Favorite quotes, rendered on /quotes.
+#
+# lead:   the quote itself (shown large when featured)
+# more:   optional continuation; line breaks are preserved
+# author: who said it
+# source: optional work, speech, or descriptor shown after the author
+# note:   optional background, shown behind a "Context" toggle
+
+- lead: |-
+    The point is not to try harder, it’s to resist less.
+  author: Terry Ritchie / Anne Lamott
+
+- lead: |-
+    Let your smile change the world, but don’t let the world change your smile.
+  author: Bob Marley
+
+- lead: |-
+    PR days are possible because of the days when you feel like crap and still push yourself to be better. You don’t need to PR every day.
+  author: Arnold Schwarzenegger
+
+- lead: |-
+    What I have found is that winning doesn’t happen on show day.
+  more: |-
+    It happens in early mornings, painful workouts, long cardio sessions, and hungry nights… Happens in every second of every day before you win.
+  author: Chris Bumstead
+
+- lead: |-
+    “I’ll fight but not surrender,” said the Wild Colonial Boy.
+  author: The Clancy Brothers
+
+- lead: |-
+    Critics are most often correct, but when it matters most, incorrect.
+  author: Alex Hormozi
+
+- lead: |-
+    I am not bound to succeed, but I am bound to live up to the light that I have.
+  author: Abraham Lincoln
+
+- lead: |-
+    I’m that thing that goes bump in the night.
+  author: C.T. Fletcher
+
+- lead: |-
+    Insanity and greatness are next door neighbors and they borrow each other’s sugar.
+  author: Joe Rogan
+
+- lead: |-
+    If you really want to do something, you’ll find a way. If you don’t, you’ll find an excuse.
+  author: Jim Rohn
+
+- lead: |-
+    Stay in top physical shape — physical stamina is the root of mental toughness.
+  author: Dick Winters
+
+- lead: |-
+    The best preparation for tomorrow is doing your best today.
+  author: H. Jackson Brown, Jr.
+
+- lead: |-
+    The old that is strong does not wither;
+    Deep roots are not reached by the frost.
+  author: J.R.R. Tolkien
+  source: All That Is Gold Does Not Glitter
+
+- lead: |-
+    Not all those who wander are lost.
+  author: J.R.R. Tolkien
+  source: All That Is Gold Does Not Glitter
+
+- lead: |-
+    If you only ever do what you can, you will never be more than you are.
+  author: Master Shifu
+  source: Kung Fu Panda
+
+- lead: |-
+    If they’re hungry, it’s because I’m starving.
+  author: Stephen A. Smith
+
+- lead: |-
+    Today me live in the moment, unless it’s unpleasant, in which case me eat cookie.
+  author: Cookie Monster
+
+- lead: |-
+    The fire is coming. Are you ready for the fire? We are FIREMEN! The heat doesn’t bother us. We live in the heat. We train in the heat. The heat is where we are supposed to be.
+  author: Teddy Atlas
+
+- lead: |-
+    The knowledge that you have emerged wiser and stronger from setbacks means that you are, ever after, secure in your ability to survive.
+  more: |-
+    You will never truly know yourself, or the strength of your relationships, until both have been tested by adversity. Such knowledge is a true gift, for all that it is painfully won, and it has been worth more than any qualification I ever earned.
+  author: J.K. Rowling
+
+- lead: |-
+    Nothing good comes without work and a certain amount of pain.
+    Pain is not my enemy; it is my call to greatness.
+  author: Henry Rollins
+  source: Iron and the Soul
+
+- lead: |-
+    Strength reveals itself through character.
+    When the body is strong, the mind thinks strong thoughts.
+  more: |-
+    I have never met a truly strong person who didn’t have self-respect.
+  author: Henry Rollins
+  source: Iron and the Soul
+
+- lead: |-
+    The Iron is the great reference point, the all-knowing perspective giver.
+  more: |-
+    Friends may come and go. But two hundred pounds is always two hundred pounds.
+  author: Henry Rollins
+  source: Iron and the Soul
+
+- lead: |-
+    We are what we repeatedly do.
+  more: |-
+    Excellence, then, is not an act but a habit.
+  author: Will Durant / Aristotle
+
+- lead: |-
+    Inspiration is for amateurs, the rest of us get to work.
+  author: Jimmy Carr
+
+- lead: |-
+    Whatever you can do, or dream you can, begin it! Boldness has genius, power and magic in it.
+  author: Goethe
+
+- lead: |-
+    Things don’t come along in an orderly fashion, and they never will.
+  author: Warren Buffett
+
+- lead: |-
+    When the tide goes out you discover who’s been swimming naked.
+  author: Warren Buffett
+
+- lead: |-
+    8 Missions to Develop Self-Confidence
+  more: |-
+    1. Have a positive attitude
+    2. PT and be healthy (PT your brain more than anything)
+    3. Motivate yourself (and motivate others)
+    4. Earn respect (respect is earned, not deserved)
+    5. Set goals (have a definitive direction)
+    6. Live with integrity
+    7. Find a mentor (and mentor others)
+    8. Have fun (find a reason to laugh every day)
+  author: David Rutherford
+  source: Former Navy SEAL, Froglogic
+
+- lead: |-
+    You must never give in to despair. Allow yourself to slip down that road and you surrender to your lowest instincts. In the darkest times, hope is something you give yourself. That is the meaning of inner strength.
+  author: General Iroh
+  source: "Avatar: The Last Airbender"
+
+- lead: |-
+    Don’t, however, worry about your individual potential.
+  more: |-
+    Potential is only the expression of a possibility;
+    something that can be accessed accurately only in retrospect.
+    In other words, you’ll never know how good you might have become unless you try.
+  author: Mike Mentzer
+
+- lead: |-
+    If the highest aim of a captain…
+  more: |-
+    was to preserve his ship, he would keep it in port forever.
+  author: Thomas Aquinas
+
+- lead: |-
+    Keep away from people who want to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can be great.
+  author: Mark Twain
+
+- lead: |-
+    Pride is not the opposite of shame, but its source.
+  author: General Iroh
+  source: "Avatar: The Last Airbender"
+
+- lead: |-
+    With gratitude, optimism is sustainable.
+  more: |-
+    If you can find something to be grateful for, then you can find something to look forward to and you carry on.
+  author: Michael J. Fox
+
+- lead: |-
+    The journey of a thousand miles begins with one step.
+  author: Lao Tzu
+
+- lead: |-
+    When you reach the end of your rope, tie a knot in it and hang on.
+  author: Franklin D. Roosevelt
+
+- lead: |-
+    The way to get started is to quit talking and start doing.
+  author: Walt Disney
+
+- lead: |-
+    We are not now that strength which in old days
+    Moved earth and heaven, that which we are, we are;
+    One equal temper of heroic hearts,
+    Made weak by time and fate, but strong in will
+    To strive, to seek, to find, and not to yield.
+  author: Alfred, Lord Tennyson
+  source: Ulysses
+
+- lead: |-
+    Standing up means voluntarily accepting the burden of being.
+  more: |-
+    Your nervous system responds in an entirely different manner when you face the demands of life voluntarily. To stand up straight with shoulders back is to accept the terrible responsibility of life with eyes wide open.
+  author: Jordan Peterson
+
+- lead: |-
+    I am the master of my fate: I am the captain of my soul.
+  more: |-
+    Out of the night that covers me,
+    Black as the pit from pole to pole,
+    I thank whatever gods may be
+    For my unconquerable soul.
+
+    In the fell clutch of circumstance
+    I have not winced nor cried aloud.
+    Under the bludgeonings of chance
+    My head is bloody, but unbowed.
+
+    Beyond this place of wrath and tears
+    Looms but the Horror of the shade,
+    And yet the menace of the years
+    Finds and shall find me unafraid.
+
+    It matters not how strait the gate,
+    How charged with punishments the scroll,
+    I am the master of my fate,
+    I am the captain of my soul.
+  author: William Ernest Henley
+  source: Invictus
+
+- lead: |-
+    Yesterday is history, tomorrow is a mystery, but today is a gift. That is why they call it the present.
+  author: Master Oogway
+  source: Kung Fu Panda
+
+- lead: |-
+    One often meets his destiny on the road he takes to avoid it.
+  author: Master Oogway
+  source: Kung Fu Panda
+
+- lead: |-
+    Life happens wherever you are, whether you make it or not.
+  author: General Iroh
+  source: "Avatar: The Last Airbender"
+  note: |-
+    In response to Zuko saying, “I don’t want to make a life here.”
+
+- lead: |-
+    If you live each day as if it was your last, someday you’ll most certainly be right.
+  author: Steve Jobs
+  source: 2005 Stanford Commencement Address
+
+- lead: |-
+    It isn’t legendary unless your friends are there to see it.
+  author: Barney Stinson
+  source: How I Met Your Mother
+
+- lead: |-
+    Whether you think you can or think you can’t, you’re right.
+  author: Henry Ford
+
+- lead: |-
+    Any wall, door, or obstacle you face you will overcome. You can go over it, under it, around it, or you will destructively go through it, but you will get to the other side.
+  author: Jason Redman
+
+- lead: |-
+    Leadership is not a rank. Leadership is not a position. Leadership is a choice.
+  author: Simon Sinek
+
+- lead: |-
+    You’ve got to find what you love. And that is as true for your work as it is for your lovers. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.
+  author: Steve Jobs
+  source: 2005 Stanford Commencement Address
+
+- lead: |-
+    The final test of leadership is the ability of a leader to instill the will to lead in those he’s left behind.
+  author: Walter Lippmann
+
+- lead: |-
+    It’s a great day to be alive.
+  author: Ian Humphrey
+  note: |-
+    Ian’s grandma used to tell him every day that it’s a great day to be alive, but for a long time he didn’t believe it. He had a rough childhood and went down the wrong path, to prison. A janitor there told him, “Prison doesn’t have to be your life. You can turn your life around and do great things. I believe in you.” Ian cried in his cell; it was the first time anyone had told him that. He turned his life around and has only been back to prison to mentor and teach. Now he takes every opportunity to tell anyone who will listen that it’s a great day to be alive.
+
+- lead: |-
+    The cost of leadership is self-interest.
+  author: Simon Sinek
+
+- lead: |-
+    Good.
+  more: |-
+    Didn’t get that new high-speed gear? Good.
+    Didn’t get that promotion? Good. More time to learn.
+    Didn’t get picked for that mission? Good. We can focus on this other one we’ve got.
+    Got beat? Good. You learned.
+  author: Jocko Willink
+  source: Former Navy SEAL
+  note: |-
+    Every time one of his guys came to him with bad news, Jocko would respond with “Good.” Finally one of them said, “I already know what you’re going to say. You’re going to say good.” Jocko replied, “Well, yeah. When things go wrong, there is going to be some good that comes from it.”
+
+- lead: |-
+    Sharing tea with a fascinating stranger is one of life’s true delights.
+  author: General Iroh
+  source: "Avatar: The Last Airbender"

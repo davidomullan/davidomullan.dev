@@ -1,0 +1,41 @@
+---
+layout: default
+title: Quotes
+description: A collection of David O'Mullan's favorite quotes.
+---
+
+<div class="quotes" id="quotes">
+
+	<p class="eyebrow">03 / Quotes</p>
+
+	<section class="quote-featured" aria-live="polite">
+		<figure id="quote-featured-content"></figure>
+		<button class="button quote-shuffle" id="quote-shuffle" type="button">Another quote</button>
+	</section>
+
+	<div class="quote-grid" id="quote-grid">
+		{% for quote in site.data.quotes %}
+		<article class="quote-card">
+			<figure>
+				<blockquote>
+					<p class="quote-lead">{{ quote.lead | escape }}</p>
+					{% if quote.more %}<p class="quote-more">{{ quote.more | escape }}</p>{% endif %}
+				</blockquote>
+				<figcaption>
+					<span class="quote-author">{{ quote.author | escape }}</span>
+					{% if quote.source %}<cite>{{ quote.source | escape }}</cite>{% endif %}
+				</figcaption>
+				{% if quote.note %}
+				<details class="quote-note">
+					<summary>Context</summary>
+					<p>{{ quote.note | escape }}</p>
+				</details>
+				{% endif %}
+			</figure>
+		</article>
+		{% endfor %}
+	</div>
+
+</div>
+
+<script type="text/javascript" src="/js/quotes.js"></script>
